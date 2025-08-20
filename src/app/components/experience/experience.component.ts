@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-experience',
   imports: [CommonModule],
   templateUrl: './experience.component.html',
-  styleUrl: './experience.component.css'
+  styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent {
 
@@ -14,51 +14,51 @@ export class ExperienceComponent {
       "Juztina",
       "Full Stack Developer",
       "May 2025 - Jul 2025",
-      `As a Senior Full Stack Developer, I led the development of an AI-powered legal assistance platform. My contributions included optimizing search features, which improved user retention and subscription continuation by enhancing search accuracy and reducing latency.`,
+      `As a Full Stack Developer, I optimized search functions, improving user retention and subscription continuation through more accurate and faster searches.`,
       'experience/juztina_logo.jpeg',
       [
-        "Optimized platform performance, reducing load times by 30% using Next.js and AWS.",
-        "Developed a document search feature that increased user retention and improved search efficiency by 25%.",
-        "Collaborated with cross-functional teams, reducing integration errors by 40%.",
-        "Enhanced accessibility features, reducing user complaints by 20%."
+        "Reduced platform load time by 30% using Next.js and AWS.",
+        "Improved search function, increasing user retention by 25%.",
+        "Collaborated with teams to reduce integration errors by 40%.",
+        "Improved accessibility, reducing complaints by 20%."
       ],
       ["Next.js", "React.js", "Tailwind CSS", "AWS", "GraphQL", "Node.js", "Supabase", "Git", "Notion", "Figma", "Stripe"],
       'experience/juztinaImage.PNG',
       "Juztina.ai",
-      "Legal assistance powered by artificial intelligence, specializing in laws, regulations, and jurisprudence.",
+      "Legal assistance powered by AI, specializing in laws, regulations, and jurisprudence.",
       "https://www.juztina.ai/",
     ),
     new WorkExperience(
       'Panda Mars',
       'Mobile Developer',
       'Feb 2024 - Feb 2025',
-      `As a Senior Mobile Developer, I spearheaded the integration and optimization of the mobile application. By utilizing React Native and AWS, I successfully enhanced the real-time coordination between customers and technicians, contributing to a 30% faster service response time and improving user engagement by 20%.`,
+      `As a Mobile Developer, I integrated and optimized the mobile app, reducing response time by 30% and increasing user engagement by 20%.`,
       'experience/pandaMarsLogo.png',
       [
-        "Led the integration of real-time geolocation services, reducing response time by 30% and improving service efficiency.",
-        "Optimized the mobile app performance using AWS, increasing app stability and user retention by 20%.",
-        "Collaborated with cross-functional teams to improve the app's user interface, increasing app store ratings by 15%.",
-        "Implemented push notifications and lifecycle management, resulting in a 25% increase in user engagement."
+        "Integrated real-time geolocation services, reducing response time by 30%.",
+        "Optimized app performance using AWS, increasing stability and retention by 20%.",
+        "Improved user interface, increasing app store ratings by 15%.",
+        "Implemented push notifications, increasing user engagement by 25%."
       ],
-      ["React Native", "AWS AppSync", "GraphQL", "AWS Cognito", "Expo", "Push Notifications", "Python", "Java", "DynamoDB", "Grapgql"],
+      ["React Native", "AWS AppSync", "GraphQL", "AWS Cognito", "Expo", "Push Notifications", "Python", "Java", "DynamoDB", "GraphQL"],
     ),
     new WorkExperience(
       "Panda Mars",
       "Full Stack Developer",
-      "May 2025 - Jul 2025",
-      `As Full Stack Team Lead, I was responsible for developing the company's core web platform and backend systems. By implementing scalable cloud infrastructure and streamlining API integrations, I reduced system downtime by 40% and improved the overall user experience by 25%.`,
+      "Feb 2024 - Feb 2025",
+      `As Full Stack Team Lead, I developed the core web platform and backend systems, reducing downtime by 40% and improving user experience by 25%.`,
       'experience/pandaMarsLogo.png',
       [
-        "Designed and developed key features, reducing system downtime by 40% and improving API response times by 35%.",
-        "Optimized cloud infrastructure using AWS and GraphQL, leading to a 30% reduction in server costs.",
-        "Improved the platform’s scalability, supporting a 50% increase in active users within 6 months.",
-        "Implemented agile practices, leading to a 20% increase in team productivity and feature delivery speed."
+        "Developed key features, reducing system downtime by 40% and improving API response times by 35%.",
+        "Optimized cloud infrastructure with AWS and GraphQL, reducing server costs by 30%.",
+        "Enhanced platform scalability, supporting a 50% increase in active users.",
+        "Implemented agile practices, increasing team productivity by 20%."
       ],
       ["Next.js", "React.js", "Tailwind CSS", "AWS", "GraphQL", "Node.js", "Node.js", "Git", "Notion", "Figma", "Stripe", "Java"],
       'experience/pandaWeb.png',
       "The Panda Web Page",
-      "Developed a web platform that connects technicians with customers requiring roadside vehicle assis...",
-      "https://www.juztina.ai/",
+      "Developed a web platform connecting technicians with customers needing roadside assistance.",
+      "https://www.app.panda-mars.com/",
     ),
     new WorkExperience(
       "Henry",
@@ -67,9 +67,9 @@ export class ExperienceComponent {
       "",
       "experience/henryIcon.png",
       [
-        "Coordinate a group of students to ensure their integration into the study team.",
-        "Assist in solving exercises and promote group collaboration (Pair Programming).",
-        "Propose ideas for improving the Bootcamp processes.",
+        "Coordinated a student group for integration into study teams.",
+        "Assisted with exercises and promoted collaboration (Pair Programming).",
+        "Proposed process improvements for the Bootcamp."
       ],
       ["Angular", "Next.js", "React.js", "Tailwind CSS", "AWS", "GraphQL", "Node.js", "Python"],
     ),
@@ -80,13 +80,13 @@ export class ExperienceComponent {
       "",
       "experience/cdxLogo.png",
       [
-        "Designed and developed landing pages and dashboards optimized for conversion.",
-        "Improved website navigation, achieving a 15% increase in user interaction.",
-        "Developed multiple web applications using React.js for the frontend and PHP/Python for the backend.",
-        "Implemented databases using MySQL and MongoDB, optimizing response times by 30%.",
-        "Worked in a team on various projects, applying Agile methodologies such as Scrum and using management tools like Jira and Trello.",
+        "Developed landing pages and dashboards optimized for conversion.",
+        "Improved site navigation, increasing user interaction by 15%.",
+        "Built web apps using React.js (frontend) and PHP/Python (backend).",
+        "Implemented databases with MySQL and MongoDB, improving response times by 30%.",
+        "Worked in teams applying Agile methodologies (Scrum), using Jira and Trello."
       ],
-      ["Next.js", "React.js", "Tailwind CSS", "AWS", "GraphQL", "Node.js", "Supabase", "Git", "Notion", "Figma", "Stripe", "Php", "Java", "Python"],
+      ["Next.js", "React.js", "Tailwind CSS", "AWS", "GraphQL", "Node.js", "Supabase", "Git", "Notion", "Figma", "Stripe", "PHP", "Java", "Python"],
     ),
   ]
 }
