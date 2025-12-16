@@ -13,7 +13,7 @@ export class ExperienceComponent {
     new WorkExperience(
       "Juztina",
       "Full Stack Developer",
-      "May 2025 - Jul 2025",
+      "May 2025 - Nov 2025",
       `As a Full Stack Developer, I optimized search functions, improving user retention and subscription continuation through more accurate and faster searches.`,
       'experience/juztina_logo.jpeg',
       [
